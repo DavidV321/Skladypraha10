@@ -1,0 +1,16 @@
+@media only screen and (max-width: 1090px){
+
+    nav {
+        display: none;
+    }
+    
+    .mobile-nav {
+        display: inline-block;
+        width: 100%;
+        
+    }
+
+    .button {
+        display: none;
+    }
+}

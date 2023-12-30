@@ -114,6 +114,28 @@ nav ul li a:active {
     padding: 15px 10px;
 }
 
+// ------------ mobile navigation -----------------
+
+.mobile-nav {
+	display: none;
+    z-index: 100;
+}
+
+.ms-auto {
+	color: yellow;
+   
+}
+
+.btn2 {
+    font-size: 18px;
+    background-color: #212121;
+    color: yellow;
+    padding: 12px 0px;
+    border: 1px solid $border-color;
+    border-radius: 5px;
+}
+
+
 //  ..................slidephoto .............
 
 #slidephoto img {

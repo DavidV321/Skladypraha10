@@ -5,3 +5,7 @@ RewriteEngine On
 # uprava URL 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule (.+) index.php?id-stranky=$1 [L,QSA]
+
+# # uprava URL 
+# RewriteCond %{REQUEST_FILENAME} !-f
+# RewriteRule (.+) hala.php?id-stranky=$1 [L,QSA]

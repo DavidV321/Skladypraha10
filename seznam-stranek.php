@@ -38,6 +38,7 @@ class Stranka {
 
 
 $pole_stranek = array (
+    // "klic" => new Stranka (hodnoty/instance)
     "uvod" => new Stranka ("uvod", "Sklady Praha10: Pronájem skladů a hal", "ÚVOD"),
     "kancelare" => new Stranka ("kancelare", "Sklady Praha10: Pronájem kanceláří", "PRONÁJEM KANCELÁŘÍ"),
     "haly" => new Stranka ("haly", "Sklady Praha10: Pronájem hal", "PRONÁJEM HAL"),

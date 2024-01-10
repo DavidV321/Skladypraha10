@@ -43,6 +43,10 @@ if (array_key_exists("id-stranky", $_GET)) {
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="queries.css">
 
+   <!-- JQuery -->
+   <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
    <script src="images/lightbox-plus-jquery.min.js"></script>
   </head>
   <body>

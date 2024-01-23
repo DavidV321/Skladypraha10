@@ -1,8 +1,8 @@
 //  ==== barvy ====
-$main-color: #1559EB;
+$main-color: blue;
 $second-color: rgb(88, 87, 87);
 $border-color: yellow;
-$font-first-color: black;
+$font-first-color: blue;
 $font-second-color: white;
 $background: light;
 
@@ -37,7 +37,7 @@ body, html {
 /* ...........logo............. */
 
 header {
-    background: $main-color;
+    background: url(images/11857.jpg);
    
 }
 
@@ -165,12 +165,18 @@ nav ul li a:active {
    //   ................... o nas ...................
 
 main {
-    background-color: #0a2991;
+    // background-color: #0a2991;
+    // background: url("./images/11857.jpg");
+    background: #0a2991;
+    background-size: cover;
+  
 }
 
 #about-us-main {
-    background-color: $main-color;
-   
+    // background-color: $main-color;
+    background: url("./images/11857.jpg");
+    background-size: cover;
+    
 }
 
 .container {
@@ -185,7 +191,7 @@ main {
 }
 
 .about-us h1{
-    color: $font-second-color;
+    color: $font-first-color;
     font-family: $font-family;
 }
 
@@ -202,7 +208,7 @@ main {
 
 .about-us p {
     text-align: justify;
-    color: white;
+    color: $font-first-color;
     font-family: $font-family;
 }
 
